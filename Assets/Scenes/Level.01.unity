@@ -3260,6 +3260,7 @@ GameObject:
   - component: {fileID: 726498825}
   - component: {fileID: 726498824}
   - component: {fileID: 726498821}
+  - component: {fileID: 726498826}
   m_Layer: 8
   m_Name: Bird
   m_TagString: Untagged
@@ -3379,6 +3380,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &726498826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726498820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183b77ffc336f6549a0bb0319d0b07b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &810580286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4672,6 +4685,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2104525743}
   - component: {fileID: 2104525742}
+  - component: {fileID: 2104525744}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -4707,6 +4721,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2104525744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104525741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e12de333ea869b24f878c75aea2ff93d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinParticles: {fileID: 8963938547927836655, guid: 96ab1813ff319d249b610836d58497f9,
+    type: 3}
 --- !u!1001 &2111459555
 PrefabInstance:
   m_ObjectHideFlags: 0
