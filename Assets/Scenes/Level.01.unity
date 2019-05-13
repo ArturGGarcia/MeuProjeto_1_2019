@@ -9635,7 +9635,7 @@ GameObject:
   - component: {fileID: 1281710215}
   - component: {fileID: 1281710216}
   m_Layer: 13
-  m_Name: Forbidden
+  m_Name: ForbiddenArea
   m_TagString: Forbidden
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
